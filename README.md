@@ -4,9 +4,9 @@
 
 Sometimes you need to build grub packages with cherry picked patches for different Linux OSes
 
-## Building Grub Debs for Debian
+## Building Grub2 Debs for Debian
 
-To build the Debian container.
+To build the Debian grub-builder container.
 
 ```
 docker build -t grub-builder:debian --no-cache -f Dockerfile.debian .
@@ -36,8 +36,9 @@ total 21572
 ```
 
 
-## Ubuntu
-To build the Ubuntu container.
+## Building Grub2 Debs for Ubuntu
+
+To build the Ubuntu grub-builder container.
 
 ```
 docker build -t grub-builder:ubuntu --no-cache -f Dockerfile.ubuntu .
