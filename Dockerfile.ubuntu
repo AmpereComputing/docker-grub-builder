@@ -1,0 +1,6 @@
+FROM ubuntu
+
+COPY UBUNTU.env /ENVIRONMENT
+COPY make_deb.sh /make_deb.sh
+RUN mkdir /output
+CMD /make_deb.sh
