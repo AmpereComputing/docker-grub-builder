@@ -64,3 +64,38 @@ total 8924
 -rw-r--r-- 1 root root 2154832 Nov  5 14:33 grub-theme-starfield_2.04-1ubuntu26.6_arm64.deb
 -rw-r--r-- 1 root root  568232 Nov  5 14:33 grub2-common_2.04-1ubuntu26.6_arm64.deb
 ```
+
+## Notes
+
+### Ubuntu Bug:
+[https://bugs.launchpad.net/ubuntu/+source/grub2/+bug/1892290](https://bugs.launchpad.net/ubuntu/+source/grub2/+bug/1892290)
+
+### Regression in this:
+
+[https://tools.ietf.org/html/rfc2348](https://tools.ietf.org/html/rfc2348)
+
+### RFC 2348 - TFTP Blocksize Option - IETF Tools
+
+RFC 2348 TFTP Blocksize Option May 1998 As was anticipated, the transfer time decreases 
+with an increase in blocksize. The reason for the reduction in time is the reduction in
+the number of packets sent. For example, by increasing the blocksize from 512 octets to 
+1024 octets, not only are the number of data packets halved, but the number of acknowledgement
+packets is also halved (along with ...
+tools.ietf.org
+
+### RH Errata:
+
+[https://access.redhat.com/errata/RHBA-2020:4046](https://access.redhat.com/errata/RHBA-2020:4046)
+
+### RH Bug: 
+
+[https://bugzilla.redhat.com/show_bug.cgi?id=1869987](https://bugzilla.redhat.com/show_bug.cgi?id=1869987)
+
+### Debian Grub2 Tracking:
+
+[https://tracker.debian.org/pkg/grub2](https://tracker.debian.org/pkg/grub2)
+
+### Debian Grub2 Sources
+[https://salsa.debian.org/grub-team/grub](https://salsa.debian.org/grub-team/grub)
+
+
