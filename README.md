@@ -99,3 +99,5 @@ tools.ietf.org
 [https://salsa.debian.org/grub-team/grub](https://salsa.debian.org/grub-team/grub)
 
 
+###
+/usr/local/src/grub/debian/grub-efi-arm64-bin/usr/lib/grub/arm64-efi/monolithic/grubnetaa64.efi
